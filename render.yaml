@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pdf-to-jpg
+    env: python
+    buildCommand: "./build.sh && pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    plan: free
