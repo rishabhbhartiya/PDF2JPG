@@ -1,6 +1,7 @@
-Flask==3.0.3
 gunicorn==23.0.0
 pandas
 pdf2image==1.16.3
 Pillow==9.5.0
 Werkzeug==2.2.3
+Flask==2.2.5  # last version compatible with Werkzeug 2.x
+
